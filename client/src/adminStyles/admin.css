@@ -1,0 +1,8 @@
+.admin {
+    display: flex;
+}
+    .adminContainer {
+      flex: 6;
+      min-height: calc(100vh - 250px);
+      box-sizing: border-box;
+    }

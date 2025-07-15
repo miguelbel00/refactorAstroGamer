@@ -1,0 +1,114 @@
+.background{
+    background-color: #482857;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word ;
+  }
+  .inputStyle{
+    width: 100%;
+    max-width: 320px;
+    height: 44px;
+    background-color: #f3e8fa;
+    border-radius: 10px;
+    padding: 0 18px;
+    margin-bottom: 12px;
+    border: 2px solid #ececec;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+    color: #350069;
+}
+.divMayorLogin{
+    width: 400px;
+    height: 520px;
+    background: linear-gradient(135deg, #d6d6d6 80%, #ca6add 100%);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 8px 32px 0 rgba(60, 0, 100, 0.25);
+    padding: 30px 20px 20px 20px;
+    flex-direction: column;
+    gap: 18px;
+}
+.botonsubmit {
+    color: #fff;
+    background: linear-gradient(90deg, #9600F4 60%, #350069 100%);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0;
+    width: 100%;
+    max-width: 320px;
+    margin: 10px auto 0 auto;
+    box-shadow: 0 2px 8px #ca6add44;
+    transition: background 0.2s;
+    text-align: center;
+}
+.botonsubmit:hover {
+    background: linear-gradient(90deg, #350069 60%, #9600F4 100%);
+}
+#singInDiv {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0 0 0;
+}
+@media screen and (max-width: 500px) {
+    .divMayorLogin {
+        width: 98vw;
+        min-width: 0;
+        padding: 10px 2vw;
+    }
+    .inputStyle, .botonsubmit {
+        max-width: 98vw;
+    }
+}
+         .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: static;
+          }
+
+          .parrafo{
+           font-weight: bold;
+           color: #424141; 
+          }
+
+          .loginBoton{
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .titleAlert{
+           font-weight: bold;
+           color: #2c2c2c;
+          }
+          .dinoVolador{
+           background-image: url('../assets/dinoVolador.png'); 
+          }
+
+          .forgotPass{
+            display: none;
+
+          }
+
+          .buttonKey{
+            border: none;
+            outline: none;
+            background-color:transparent;
+            font-size: 15px;
+          }
+          .buttonKey:hover{
+            color: #482857;
+          }
+
+          .forgotPassEnab{
+            display: block;
+         
+          }

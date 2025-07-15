@@ -1,0 +1,66 @@
+.createContainer form {
+display: flex;
+justify-content: left;
+margin-top: -50px;
+}
+
+.createContainer {
+  min-height: calc(100vh - 250px);
+  box-sizing: border-box;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+
+.myProduct {
+  padding: 10px;
+}
+
+.myProduct img {
+    height:100px;
+    width: auto;
+    box-shadow: 0 0 4px;
+
+}
+
+.myProduct button {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -20px;
+  font-size: 15px;
+  border-radius: 50rem;
+  border: none;
+  background: rgb(202, 202, 202);
+  cursor: pointer;
+}
+
+.myProduct button:hover {
+  opacity: 0.9;
+}
+
+
+.showProduct { 
+    position: relative;
+    margin-left: -5rem;
+    padding-left: 100px;
+
+   
+}
+.showImg { 
+  position: relative;
+  margin-left: -5rem;
+  padding: 100px 100px 10px 100px;
+  
+ 
+}
+.showImg img {
+    height: 300px;
+    width: auto;
+    box-shadow: 0 0 4px;
+  } 
+

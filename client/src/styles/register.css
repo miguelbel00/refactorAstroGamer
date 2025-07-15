@@ -1,0 +1,122 @@
+
+.divMayorRegister{
+  width: 450px;
+  height: 650px;
+  background: linear-gradient(135deg, #d6d6d6 80%, #ca6add 100%);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 0 8px 32px 0 rgba(60, 0, 100, 0.25);
+  padding: 30px 20px 20px 20px;
+  flex-direction: column;
+  gap: 18px;
+}
+.titleRegister{
+     margin-top: 200px;
+   }
+   
+   
+   .inputStyle{
+  width: 100%;
+  max-width: 320px;
+  height: 44px;
+  background-color: #f3e8fa;
+  border-radius: 10px;
+  padding: 0 18px;
+  margin-bottom: 12px;
+  border: 2px solid #ececec;
+  font-size: 1rem;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  color: #350069;
+}
+   
+   
+   
+   .errorButton{
+    border-color: red; 
+    overflow: hidden
+   }
+   
+   .godButton{
+    border-color: rgb(125, 241, 150); 
+   }
+
+
+   .parrafo{
+  color: rgb(43, 43, 43);
+  font-weight: bold
+   }
+
+
+  .background{
+    background-color: #482857;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word ;
+  }
+  .botoncito{
+    width: 100px;
+    height: 35px;
+  }
+
+  .logoRegister{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .error{
+    color: #e92b2d;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  ::placeholder {
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+  }
+
+  .botonsubmit {
+    color: #fff;
+    background: linear-gradient(90deg, #9600F4 60%, #350069 100%);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0;
+    width: 100%;
+    max-width: 320px;
+    margin: 10px auto 0 auto;
+    box-shadow: 0 2px 8px #ca6add44;
+    transition: background 0.2s;
+    text-align: center;
+}
+.botonsubmit:hover {
+    background: linear-gradient(90deg, #350069 60%, #9600F4 100%);
+}
+#singInDiv {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0 0 0;
+}
+@media screen and (max-width: 500px) {
+    .divMayorRegister {
+        width: 98vw;
+        min-width: 0;
+        padding: 10px 2vw;
+    }
+    .inputStyle, .botonsubmit {
+        max-width: 98vw;
+    }
+}
+
+     
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+

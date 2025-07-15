@@ -1,0 +1,51 @@
+.createContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: calc(100vh - 250px);
+  box-sizing: border-box;
+}
+
+.createContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.createContainer form input {
+  width: 100%;
+  max-width: 320px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.boxInput {
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+
+.errors {
+  margin-top: 4px;
+  color: red;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+  .createContainer {
+    padding: 20px 10px;
+  }
+
+  .createContainer form input {
+    max-width: 100%;
+  }
+}
