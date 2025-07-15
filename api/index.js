@@ -17,9 +17,14 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(express.static(path.join(__dirname, 'public')))
 
+// 🟢 Ruta ping para mantener vivo el servidor
+app.get('/ping', (req, res) => {
+  res.status(200).send('pong')
+})
+
 app.use('/', indexRouter)
 
- //catch 404 and forward to error handler
+// catch 404 and forward to error handler
 app.use((req, res, next) => {
   next(createError(404))
 })
@@ -36,7 +41,6 @@ app.use((err, req, res) => {
 })
 
 app.listen(port, () => {
-  // eslint-disable-next-line no-console
   console.log(`Servidor corriendo en http://localhost:${port}`)
 })
 
