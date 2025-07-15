@@ -1,3 +1,32 @@
 .ant-modal-mask{
     background-color: aliceblue;
 }
+
+@media (max-width: 900px) {
+  .ant-table {
+    font-size: 14px;
+  }
+  .ant-modal {
+    width: 90vw !important;
+    min-width: unset !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .ant-table {
+    font-size: 12px;
+    overflow-x: auto;
+  }
+  .ant-table-content {
+    overflow-x: auto;
+  }
+  .ant-modal {
+    width: 98vw !important;
+    min-width: unset !important;
+    padding: 0 2vw;
+  }
+  .ant-btn {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}

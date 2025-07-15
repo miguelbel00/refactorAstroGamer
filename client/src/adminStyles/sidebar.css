@@ -11,11 +11,14 @@
   align-items: center;
   justify-content: center;
 }
-  /* .logo {
-        font-size: 20px;
-        font-weight: bold;
-        color: #6439ff;
-      } */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6439ff;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
 
 hr {
   height: 0;
@@ -72,4 +75,65 @@ hr {
   margin: 20px;
   padding: 10px 0 10px 0;
   font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    min-height: 60px;
+    width: 100vw;
+    border-right: none;
+    border-bottom: 0.5px solid rgb(230, 227, 227);
+    flex-direction: column;
+    display: flex;
+    overflow-x: unset;
+  }
+  .top {
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 100vw;
+    text-align: center;
+    display: block;
+  }
+  .center, .ant-menu {
+    flex-direction: column !important;
+    width: 100% !important;
+    align-items: flex-start !important;
+    text-align: left;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    min-height: 50px;
+    width: 100vw;
+    background: white;
+    border-bottom: 0.5px solid rgb(230, 227, 227);
+    border-right: none;
+    flex-direction: column;
+    display: flex;
+    overflow-x: unset;
+  }
+  .top {
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 100vw;
+    text-align: center;
+    display: block;
+  }
+  .center, .ant-menu {
+    flex-direction: column !important;
+    width: 100% !important;
+    align-items: flex-start !important;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .liAdmin {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
 }

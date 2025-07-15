@@ -6,3 +6,25 @@
       min-height: calc(100vh - 250px);
       box-sizing: border-box;
     }
+
+@media (max-width: 900px) {
+  .admin {
+    flex-direction: column;
+  }
+  .adminContainer {
+    min-height: unset;
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .admin {
+    flex-direction: column;
+  }
+  .adminContainer {
+    min-height: unset;
+    width: 100vw;
+    padding: 0 5px;
+  }
+}
